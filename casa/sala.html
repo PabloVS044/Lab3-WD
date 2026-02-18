@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>La Sala - El Sueño de Don Meyer</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <h1>El Sueño de Don Meyer</h1>
+      <progress value="25" max="100">25%</progress>
+    </header>
+
+    <nav>
+      <p>
+        <a href="../index.html">Inicio</a> &gt;
+        <a href="corredor.html">Corredor</a> &gt;
+        <strong>Sala</strong>
+      </p>
+    </nav>
+
+    <main>
+      <article>
+        <header>
+          <h2>La Sala de los Recuerdos</h2>
+        </header>
+
+        <section>
+          <p>
+            Entrás a la sala y ves las paredes llenas de fotografías. Don Meyer
+            y doña Rosa en su boda, los hijos pequeños, las fiestas del pueblo.
+            Pero lo que más te llama la atención es un marco especial en la pared.
+          </p>
+          <p>
+            Adentro hay un <strong>mapa dibujado a mano</strong> con marcadores
+            de colores. Muestra el camino desde el pueblo hasta un punto marcado
+            con una X roja: "Ruinas del Amanecer Eterno".
+          </p>
+          <p>
+            Don Meyer entra detrás de vos. "Ese mapa lo hicimos hace 40 años.
+            Tu abuela investigó durante meses. Decían que las ruinas tienen una
+            vista que te cambia la vida."
+          </p>
+        </section>
+
+        <figure>
+          <img
+            src="/images/fotos.jpg"
+            alt="Una sala con paredes llenas de fotografías familiares antiguas"
+          />
+          <figcaption>La sala donde viven los recuerdos de don Meyer</figcaption>
+        </figure>
+
+        <aside>
+          <details>
+            <summary>El mapa revela detalles</summary>
+            <p>
+              El mapa muestra: salida del pueblo, paso por el mercado para
+              provisiones, cruce del río, subida por el sendero de la montaña,
+              y finalmente las ruinas en la cima. Doña Rosa escribió al lado:
+              "3 días de camino, pero vale cada paso."
+            </p>
+          </details>
+        </aside>
+
+        <dialog id="decision">
+          <p>Don Meyer te mira con esperanza:</p>
+          <blockquote>
+            "Miguel, sé que soy viejo. Pero si vos me acompañás, creo que puedo
+            hacerlo. Podemos llevar el sueño de tu abuela hasta el final. ¿Qué
+            decís, mijo?"
+          </blockquote>
+          <form method="dialog">
+            <button>Es hora de decidir</button>
+          </form>
+        </dialog>
+
+        <section>
+          <p>
+            <a href="#decision" onclick="document.getElementById('decision').showModal(); return false;">
+              Don Meyer te hace una propuesta importante
+            </a>
+          </p>
+        </section>
+
+        <nav>
+          <p>¿Aceptás la aventura?</p>
+          <ul>
+            <li><a href="../pueblo/mercado.html">¡Sí! Ir al pueblo a preparar el viaje</a></li>
+            <li><a href="corredor.html">Volver al corredor a pensarlo mejor</a></li>
+            <li><a href="../montana/sendero.html">Empezar el viaje inmediatamente</a></li>
+          </ul>
+        </nav>
+      </article>
+    </main>
+
+    <footer>
+      <p>Algunos viajes cambian la vida...</p>
+    </footer>
+  </body>
+</html>
